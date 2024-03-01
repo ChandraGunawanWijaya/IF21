@@ -1,0 +1,51 @@
+/* element selector */
+/* ref : colorhunt  */
+body{
+    background-color: #35374B ;
+}
+ /* Class Selector */
+ .col{
+    width: 25%;
+    background-color: yellow;
+    float: left;
+}
+
+.col1{
+    width: 33.33%;
+    background-color: yellow;
+    float: left;
+}
+
+.col2{
+    width: 66.66%;
+    background-color: white;
+    float: left;
+}
+
+
+.img-responsive0{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bg-primary{
+    background-color: #344955;
+}
+
+.img-rounded{
+    border-radius: 20px;
+}
+
+.rounded{
+    /* TOP LEFT - TOP RIGHT - BOTTOM RIGHT - BOTTOM LEFT */
+    border-radius: 50% 50% 0% 0%;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
