@@ -1,0 +1,101 @@
+/* CSS Tablet */
+@media screen and (min-width : 600px) {
+    body{
+        background-color: blue;
+
+    }
+    .col-tb-6{
+        width: 50%;
+        float: left;
+    }
+
+     .col-tb-12 {
+    width: 100%;
+    background-color: cadetblue;
+    float: left;
+    }
+}
+
+/* CSS DESKTOP */
+@media screen and (min-width : 992px) {
+    body{
+        background-color: green;
+    }
+    .col-ds-3{
+    width: 25%;
+    background-color: yellow;
+    float: left;
+    }
+
+    .col-ds-4 {
+    width: 33.33%;
+    background-color: aqua;
+    float: left;
+    }
+
+      .col-ds-6{
+    width: 50%;
+    float: left;
+    background-color: yellow;
+    }
+
+}
+
+
+img{
+    border-radius: 50% 50% 0% 0%;
+    text-align: center;
+    margin-left: 70px;
+}
+
+h2{
+    font-family: sans-serif;
+    text-align: center;   
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;   
+    
+}
+
+header{
+   
+    color: white;
+    font-size: larger;
+    padding: 40px;
+}
+
+.col-4{
+    width: 33.33%;
+    background-color: aqua;
+    float: left;
+}
+
+.col-3{
+    width: 25%;
+    background-color: aqua;
+    float: left;   
+}
+
+.col-6{
+    width: 50%;
+    background-color: aqua;
+    float: left;   
+}
+
+.image-wh{
+    max-width: 400px ;
+    max-height: 400px;
+}
+
+.rounded{
+    border-radius: 40px;
+    background-color: chartreuse;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
