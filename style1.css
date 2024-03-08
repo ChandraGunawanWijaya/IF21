@@ -1,3 +1,6 @@
+*{
+    box-sizing: 1;
+}
 /* CSS Tablet */
 @media screen and (min-width : 600px) {
     body{
@@ -43,7 +46,7 @@
 
 
 img{
-    border-radius: 50% 50% 0% 0%;
+    border-radius: 50% 0% 50% 0%;
     text-align: center;
     margin-left: 70px;
 }
@@ -62,7 +65,7 @@ header{
    
     color: white;
     font-size: larger;
-    padding: 40px;
+    padding: 20px;
 }
 
 .col-4{
@@ -83,6 +86,12 @@ header{
     float: left;   
 }
 
+.col-12{
+    width: 100%;
+    background-color: aqua;
+    float: left;   
+}
+
 .image-wh{
     max-width: 400px ;
     max-height: 400px;
@@ -90,6 +99,7 @@ header{
 
 .rounded{
     border-radius: 40px;
+    max-height: 100px;
     background-color: chartreuse;
 }
 
