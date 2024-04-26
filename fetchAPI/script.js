@@ -19,9 +19,16 @@ fetch('https://dummyjson.com/quotes')
 fetch('https://dummyjson.com/products')
 .then(res => res.json())
 .then(data => {
+    console.log(data);
+    console.log(data.title);
+    console.log(data.rating);
+    console.log(data.stock);
+    console.log(data.total);
+    console.log(data.thumbnail);
+    document.getElementById("total1").innerHTML = data.total
     list.innerHTML += `<div class= "col-lg-6" >
     <div class = "row">
-        <img src = "${d.thumbnail}" class = "rounded d-block W-100">
+        <img src ="${d.thumbnail}" class = "rounded d-block W-100">
         </div>
         <div class = "col-lg-6 p-2">
             <h2>${d.title}</h2>
@@ -33,13 +40,7 @@ fetch('https://dummyjson.com/products')
         </div>
     </div>`;
    });
-//     console.log(data);
-//     console.log(data.title);
-//     console.log(data.rating);
-//     console.log(data.stock);
-//     console.log(data.total);
-//     console.log(data.images);
-//     document.getElementById("total1").innerHTML = data.total
+  
 
 //     for(const [i, d] of data.products.entries()){
 //     document.getElementById("list").
